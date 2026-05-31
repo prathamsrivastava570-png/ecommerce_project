@@ -1,0 +1,18 @@
+.navbar {
+     background:#232f3e;
+      padding:10px 20px;
+       display:flex;
+        flex-wrap:wrap;
+         gap:5px;
+         }
+.nav-link {
+     color:white;
+      font-size:14px;
+       padding:5px 10px;
+        cursor:pointer;
+         border-radius:3px;
+          border:1px solid transparent;
+         }
+.nav-link:hover, .nav-link.active {
+     border-color:white;
+     }

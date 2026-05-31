@@ -1,0 +1,12 @@
+.login-page { min-height:100vh; background:#e3e6e6; display:flex; align-items:center; justify-content:center; }
+.login-box { background:white; padding:30px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.15); width:100%; max-width:350px; display:flex; flex-direction:column; gap:16px; }
+.login-logo { font-size:36px; font-weight:bold; color:#f08804; text-align:center; }
+.login-box h2 { font-size:22px; font-weight:500; color:#111; }
+.login-field { display:flex; flex-direction:column; gap:6px; }
+.login-field label { font-size:14px; font-weight:bold; color:#111; }
+.login-field input { padding:10px; border:1px solid #ccc; border-radius:4px; font-size:15px; outline:none; }
+.login-field input:focus { border-color:#f08804; box-shadow:0 0 0 2px rgba(240,136,4,0.2); }
+.login-error { color:#B12704; font-size:13px; background:#fff3f0; padding:8px 12px; border-radius:4px; border:1px solid #f5c6c6; }
+.login-btn { padding:12px; background:#ffd814; border:1px solid #fcd200; border-radius:4px; font-size:16px; font-weight:bold; cursor:pointer; }
+.login-btn:hover { background:#f7ca00; }
+.login-hint { font-size:12px; color:#888; text-align:center; background:#f7f7f7; padding:10px; border-radius:4px; line-height:1.8; }
